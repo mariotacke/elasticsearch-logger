@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '7'
+- '6'
+script:
+- npm run lint
+deploy:
+  provider: npm
+  email: tacke.mario@gmail.com
+  on:
+    tags: true
+    repo: mariotacke/elasticsearch-logger
+  api_key:
+    secure: jADM78NXVajA+/peg+JewvN1cqADFq/7TLVs15w7q1OEGDWcSxuNFuE6EAuoB+AGnntccv8jj9DlYu+5jWktxUvpPjPqIflMLI+mE6nOsJyn2gECC4ZGDDNaQFN3329+yTKloFtiETNeiE3RefyP4c0tSarAbh7lRk9lZv1HseTq27w5wf7v+gJNwuoH1vo6cPL+7yd7xBqqwndsLqd+h56bxf+gGxhZPCJqM/B82ZD4wjYgSS6smvvloDerumbLKMqu0qNWSf15bwttb1kA8qhzm2qdqrjRPoEZOcypQwk3BuSKi9rNnbBybN5KoVu99KoXZMoEL1QZeziFuqdaOgiEkGHG/ZEE3f4VfyMMQ0W/8n5qgG5Q8eZ+eNSFmQYwEl0Rc0CUMTllrzCeRimJm3okG2V+rAhipb2qgPbdlfDi9VrozNFR2EYidkDYYIioXKkiMo2+mAToBwR+T17P7q/xq83jQdXnc53ONNJE9CE4ujj7lFYCljXpY/iDqFXEZ8zG/MuPj71Asl6kYwOlN0OQAiBf9f3OhgfCFp5lhs/1jlgK2To37auBt97SW1uCqigarCdRXBQ7nBYuFGUp3HF1rrzJaBviIG0YVIWW7Vz/nPFsMg2rDtQWo/pvLTdDO8td59SJHk9X84QAXg1zjNCcLdWd/DpKqDoCXoQwjWA=

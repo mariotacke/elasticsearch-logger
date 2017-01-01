@@ -1,4 +1,6 @@
 # Elasticsearch Logger for Node.js
+[![Build Status](https://travis-ci.org/mariotacke/elasticsearch-logger.svg?branch=master)](https://travis-ci.org/mariotacke/elasticsearch-logger) [![npm version](https://badge.fury.io/js/elasticsearch-logger.svg)](https://badge.fury.io/js/elasticsearch-logger)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/elasticsearch-logger/master/LICENSE)
+
 A configuration-free Elasticsearch logger for node.js with sane defaults.
 
 ## Usage
