@@ -1,0 +1,11 @@
+{
+  "name": "elasticsearch-logger-example",
+  "version": "1.0.0",
+  "description": "Elasticsearch Logger for Node.js Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mario Tacke <tacke.mario@gmail.com>",
+  "license": "ISC"
+}
