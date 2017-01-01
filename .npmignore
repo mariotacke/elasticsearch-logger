@@ -5,4 +5,5 @@ example/
 .gitattributes
 .gitignore
 .npmignore
+.travis.yml
 yarn.lock
