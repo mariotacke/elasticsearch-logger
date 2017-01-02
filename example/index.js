@@ -5,5 +5,11 @@ try {
 } catch (e) {
   logger
     .error(e)
-    .then(() => console.error(e)); // eslint-disable-line
+    .then(() => console.error(e)); // eslint-disable-line no-console
 }
+
+logger
+  .info({
+    some: 'information'
+  })
+  .then(() => console.log()); // eslint-disable-line no-console
